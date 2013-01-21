@@ -1,0 +1,65 @@
+html, body {			font-family: helvetica, arial, sans-serif;font-size:12px;}
+
+h1.logo { background:transparent url(../img/logo.jpg) 0px 0px no-repeat; text-indent:-4000px;margin:5px;display:block;height:50px;width:250px;}
+a img { border:none;}
+.same { padding: 20px;
+			-moz-border-radius:10px;
+			-webkit-border-radius:10px;
+			-moz-box-shadow: #000 2px 4px 10px;
+			-webkit-box-shadow: #000 2px 2px 10px;
+		}
+
+
+.header {background-color:#28201a;}
+.footer {background-color:white;font-size:11px;}
+.contentcontainer { background-color:#e5c483 }
+
+.cl {float:left;width:50%}
+.cr {float:right;width:50%}
+.clear {clear:both;}
+
+.menu {padding:0px;margin:0px;}
+.menu li {display:inline;}
+.menu li a { background-color:#4a661c;color:#9db1d6;padding:6px;padding-bottom:4px;text-decoration:none; -moz-border-radius:5px;-webkit-border-radius:5px;}
+.menu li a:hover { background-color:#9db1d6;color:#4a661c;}
+
+		img.bg {
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+			
+			/* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		@media screen and (max-width: 1024px){
+			img.bg {
+				left: 50%;
+				margin-left: -512px; }
+		}
+		
+		div#content {
+			/* This is the only important rule */
+			/* We need our content to show up on top of the background */
+			position: relative; 
+			/* These have no effect on the functionality */
+			min-width: 800px;
+			width:80%;
+			margin: 0 auto;
+			background:transparent url(../img/bgtrans.png) 0px 0px repeat;
+			font-size: 10pt;
+			line-height: 16pt;
+		}
+		
+		body {
+			/* These rules have no effect on the functionality */
+			/* They are for styling only */
+			margin: 0;
+			padding: 20px 0 0 0;
+		}

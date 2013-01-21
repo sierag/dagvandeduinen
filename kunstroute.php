@@ -1,0 +1,3 @@
+<h2>Kunstroute</h2>
+
+<p>Op een vijftal locaties exposeren kunstenaars uit de regio, deels met werk dat rechtstreeks te geïnspireerd door de recente gebeurtenissen. Een deel van het werk is te koop, waarbij de opbrengst bestemd is voor het duingebied.</p><p>De locaties zijn:</p><p>Er is werk te zien en aan te kopen van onder meer: </p><p>De kunstroute eindigt in het Zandspoor. Daar kunt u de laatste kunstwerken bekijken en genieten van een consumptie.</p>
